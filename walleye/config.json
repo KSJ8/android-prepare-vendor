@@ -383,6 +383,7 @@
         "PRODUCT_PROPERTY_OVERRIDES += \\",
         "    ro.hardware.fingerprint=fpc \\",
         "    ro.gfx.driver.0=com.google.pixel.wahoo.gfxdrv \\",
+        "    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \\",
         "    ro.oem_unlock.pst=/dev/block/platform/soc/1da4000.ufshc/by-name/misc \\",
         "    ro.oem_unlock.pst_offset=6144"
       ]
@@ -445,7 +446,6 @@
         "    ro.opa.eligible_device=true \\",
         "    ro.storage_manager.enabled=true \\",
         "    ro.com.google.ime.theme_id=5 \\",
-        "    ro.boot.vendor.overlay.theme=com.google.android.theme.pixel \\",
         "    drm.service.enabled=true \\",
         "    media.mediadrmservice.enable=true \\",
         "    ro.setupwizard.rotation_locked=true \\",
